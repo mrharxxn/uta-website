@@ -69,13 +69,13 @@ header nav ul li a:hover {
 .project-cards {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 10rem;
 }
 
 .project-cards .card {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 5rem;
+    padding: 10rem;
     width: 10%;
 }
 
@@ -85,7 +85,7 @@ header nav ul li a:hover {
 }
 
 .project-cards .card h3 {
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 /* Services Section */
