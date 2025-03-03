@@ -118,6 +118,37 @@ header nav ul li a:hover {
     background-repeat: no-repeat;
 }
 
+.projects {
+    text-align: center; /* Centers the heading */
+}
+
+.project-container {
+    display: flex;
+    justify-content: center; /* Centers all projects */
+    gap: 20px; /* Spacing between projects */
+}
+
+.project-ca {
+    text-align: center;
+    width: 250px; /* Medium size */
+}
+
+.project-ca img {
+    width: 100%; /* Makes all images the same width */
+    height: 200px; /* Ensures uniform height */
+    object-fit: cover; /* Prevents image distortion */
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
 
 .product-card img, .project-card img {
     width: 100%;
