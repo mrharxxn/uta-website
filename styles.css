@@ -69,14 +69,14 @@ header nav ul li a:hover {
 .project-cards {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .project-cards .card {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 1rem;
-    width: 45%;
+    padding: 5rem;
+    width: 10%;
 }
 
 .project-cards .card img {
