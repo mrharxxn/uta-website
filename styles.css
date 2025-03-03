@@ -69,19 +69,19 @@ header nav ul li a:hover {
 .project-cards {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 .project-cards .card {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 1rem;
-    width: 100%;
+    width: 45%;
 }
 
 .project-cards .card img {
-    width: 5%;
-    height: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .project-cards .card h3 {
@@ -106,13 +106,13 @@ header nav ul li a:hover {
 /* Product & Project Cards */
 .product-card, .project-card {
     background-color: #fff;
-    padding: 5rem;
+    padding: 1rem;
     text-align: center;
 }
 
 .company-profile .logo {
     width: 100%;
-    height: auto; /* Adjust height as needed */
+    height: 300px; /* Adjust height as needed */
     background-size: cover; /* Ensures full coverage */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -160,4 +160,3 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-
