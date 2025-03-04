@@ -110,15 +110,58 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-.company-profile .logo {
-    width: 100%;
-    height: 300px; /* Adjust height as needed */
-    background-size: cover; /* Ensures full coverage */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;
+body {
+    font-family: "Arial", sans-serif; /* Clean and modern font */
+    font-size: 18px; /* Increased font size */
+    line-height: 1.6; /* Better spacing for readability */
+    color: #333; /* Dark gray for better contrast */
+    background-color: #f8f8f8; /* Light background for a professional look */
+    margin: 0;
+    padding: 0;
 }
 
-/* Styles only for the Projects page */
+h2 {
+    font-family: "Poppins", sans-serif; /* More stylish heading font */
+    font-size: 26px; /* Larger heading size */
+    color: #002f5f; /* Dark blue for professional look */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px; /* Increased paragraph text size */
+    font-weight: 400;
+    color: #444; /* Slightly darker text */
+    margin-bottom: 15px;
+}
+
+.company-profile {
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.company-profile .logo img {
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    width: 70%; /* Increased size */
+    max-width: 500px; /* Ensures it doesn't get too big */
+    border-radius: 5px; /* Slight rounding for a modern look */
+}
+
+
+a {
+    color: #d32f2f; /* Red color for emphasis */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}/* Styles only for the Projects page */
 .projects-page .project-container {
     display: flex;
     justify-content: center;
@@ -179,9 +222,10 @@ header nav ul li a:hover {
 }
 
 /* Footer */
-footer {
+footer p {
     background-color: #333;
-    color: #fff;
+    color: white !important;
     text-align: center;
     padding: 1rem;
+ font-family: Arial, sans-serif; /* Ensures a clean font */
 }
