@@ -118,26 +118,28 @@ header nav ul li a:hover {
     background-repeat: no-repeat;
 }
 
-.project-ca {
+/* Styles only for the Projects page */
+.projects-page .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 5%;
+}
+
+.projects-page .project-ca {
     text-align: center;
-    width: 250px; /* Medium size */
+    max-width: 300px;
 }
 
-.project-ca img {
-    width: 100%; /* Makes all images the same width */
-    height: 200px; /* Ensures uniform height */
-    object-fit: cover; /* Prevents image distortion */
-    border-radius: 10px; /* Optional rounded corners */
+.projects-page .project-ca img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-h3 {
-    margin-top: 10px;
-}
-
-p {
-    font-size: 14px;
-    color: #555;
-}
 
 
 
