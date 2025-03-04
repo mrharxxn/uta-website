@@ -118,41 +118,31 @@ header nav ul li a:hover {
     background-repeat: no-repeat;
 }
 
-.lighting-projects {
-    text-align: center; /* Centers the section heading */
-}
 
-.lighting-container {
-    display: flex;
-    justify-content: center; /* Centers all projects */
-    gap: 30px; /* Space between projects */
-    flex-wrap: wrap; /* Ensures responsiveness */
-}
-
-.lighting-project {
+.project-ca {
     text-align: center;
-    width: 300px; /* Fixed size for uniformity */
+    width: 300px; /* Fixed size for all projects */
 }
 
-.lighting-project img {
-    width: 100%; /* Ensures images are the same width */
-    height: 200px; /* Uniform height */
-    object-fit: cover; /* Prevents image distortion */
+.project-ca img {
+    width: 100%; /* Ensures images have equal width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures images fill the area properly */
     display: block;
     margin: 0 auto; /* Centers the image */
     border-radius: 10px; /* Optional rounded corners */
 }
 
-.lighting-project h3 {
+h3 {
     margin-top: 10px;
     font-size: 18px;
 }
 
-.lighting-project p {
+p {
     font-size: 14px;
     color: #555;
     max-width: 250px;
-    margin: 0 auto; /* Centers the description text */
+    margin: 0 auto; /* Centers text */
 }
 
 
