@@ -118,16 +118,6 @@ header nav ul li a:hover {
     background-repeat: no-repeat;
 }
 
-.projects {
-    text-align: center; /* Centers the heading */
-}
-
-.project-container {
-    display: flex;
-    justify-content: center; /* Centers all projects */
-    gap: 20px; /* Spacing between projects */
-}
-
 .project-ca {
     text-align: center;
     width: 250px; /* Medium size */
