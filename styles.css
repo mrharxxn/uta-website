@@ -201,6 +201,15 @@ a:hover {
     max-width: 500px;
     margin: 0 auto;
 }
+.contact .logo img {
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    width: 70%; /* Increased size */
+    max-width: 500px; /* Ensures it doesn't get too big */
+    border-radius: 5px; /* Slight rounding for a modern look */
+}
+
+
 
 .contact form input,
 .contact form textarea {
